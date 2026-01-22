@@ -1,0 +1,97 @@
+name: stride
+description: Discipline and habit-building app powered by quests and streaks.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ================= STATE MANAGEMENT =================
+  provider: ^6.1.2
+  barcode_widget: ^2.0.4
+
+  # ================= UI / ANIMATION =================
+  flutter_svg: ^2.0.10+1
+  lottie: ^3.1.2
+  google_fonts: ^6.2.1
+  percent_indicator: ^4.2.3
+  confetti: ^0.7.0
+  fl_chart: ^0.66.0
+  table_calendar: ^3.2.0
+  animated_notch_bottom_bar: ^1.0.3
+
+  # ================= FIREBASE =================
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.3
+  cloud_firestore: ^5.1.1
+
+  # ================= SOCIAL AUTH =================
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^7.0.1
+
+  # ================= AUDIO & VIBRATION =================
+  audioplayers: ^6.1.0
+  vibration: ^2.0.0
+  flutter_local_notifications: ^18.0.1
+
+  # ================= PRINTING & FILES =================
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  path_provider: ^2.1.5
+
+  # ================= MAPS & LOCATION (Strava Feature) =================
+  geolocator: ^14.0.2              # GPS Coordinates
+  flutter_background_service: ^5.1.0 # Tracking while app is closed
+  flutter_map: ^8.2.2              # Free Maps (OpenStreetMap)
+  latlong2: ^0.9.1                 # Coordinate helper
+  sensors_plus: ^7.0.0             # Accelerometer/Gyroscope
+
+  # ================= UTILITIES =================
+  intl: ^0.20.2
+  shared_preferences: ^2.3.2
+  timezone: ^0.9.4
+  flutter_timezone: ^5.0.1
+  qr_flutter: ^4.1.0
+  dotted_border: ^3.1.0
+  hive: ^2.2.3             # Database (Core)
+  hive_flutter: ^1.1.0     # Database (Flutter Utils)
+  pedometer: ^4.1.1
+  permission_handler: ^12.0.1
+  awesome_notifications: 0.10.1
+  image_picker: ^1.0.7
+  speech_to_text: ^7.0.0
+
+  # ================= AI CHATBOT =================
+  google_generative_ai: ^0.4.3
+  share_plus: ^12.0.1
+  screenshot: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ================= ASSETS =================
+  assets:
+    - assets/logo/
+    - assets/icons/
+    - assets/icons/modes/
+    - assets/illustrations/
+    - assets/illustrations/modes/
+    - assets/illustrations/onboarding/
+    - assets/animations/
+    - assets/ascension/
+    - assets/sounds/
+    - assets/animations/mascot/
+    - assets/images/
+    - assets/profile/
+    - assets/badges/
+

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "509030814556",
+    "project_id": "stride-b1c44",
+    "storage_bucket": "stride-b1c44.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509030814556:android:74e7e5b3c06274e54da799",
+        "android_client_info": {
+          "package_name": "com.example.stride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509030814556-hitjcqpa613o4v42u40s5ctuldvfa8i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stride",
+            "certificate_hash": "a6d9bbea74cfc978584df378b031a1757952f476"
+          }
+        },
+        {
+          "client_id": "509030814556-j463vj8h9otfo4fnjuf2ebjst6qvv7vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLFE4KiRZ9ymrccGcPBq2CFziCRISZu58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509030814556-j463vj8h9otfo4fnjuf2ebjst6qvv7vh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "509030814556-kmp8d17s4rlonioohrspatsf0tq9ftun.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stride"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
