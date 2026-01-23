@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+stride-main.zip filter=lfs diff=lfs merge=lfs -text
